@@ -1,0 +1,92 @@
+aside {
+    float: left;
+    background-color: white;
+    width: 300px;
+    grid-area: aside;
+    margin-top: 10px;
+    border: solid 1px var(--gray-color);
+    box-shadow: 2px 2px 5px var(--gray-color);
+    padding: 10px;
+}
+
+aside h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 5px;
+    font-family: "NunitoSans-Bold", Arial, Helvetica, sans-serif;
+    border-top: solid 1px var(--secondary-color-dark);
+    border-bottom: solid 1px var(--secondary-color-dark);
+}
+
+.widget {
+    margin-bottom: 60px;
+}
+
+.widget form input[type="email"],
+.widget form input[type="password"] {
+    width: 100%;
+margin-bottom: 10px;
+padding: 10px;
+box-sizing: border-box;
+}
+
+.widget form input[type="submit"] {
+    width: 100%;
+    text-transform: uppercase;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    border: none;
+    transition: all 0.3s;
+}
+
+.widget form input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #305496;
+}
+
+.widget ul{
+    list-style: circle;
+    padding-left: 20px;
+}
+
+.widget ul li{
+    margin: 15px 0;
+}
+
+.widget blockquote{
+    margin: 0;
+    color: #757171;
+    font-style: italic;
+    text-align: justify ;
+}
+
+@media(max-width:700px){
+    aside{
+        width: 100%;
+    }
+}
+
+.widget blockquote div{
+    color: var(--primary-color);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.video-responsive {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+	}
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	}
