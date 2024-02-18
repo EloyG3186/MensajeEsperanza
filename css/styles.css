@@ -1,9 +1,9 @@
 
-@import "/CSS/colors.css";
-@import "/CSS/fuentes.css";
-@import "/CSS/common.css";
-@import "/CSS/header.css";
-@import "/css/main-menu.css";
-@import "/css/aside.css";
-@import "/css/secciones.css";
-@import "/css/footer.css";
+@import "./colors.css";
+@import "./fuentes.css";
+@import "./common.css";
+@import "./header.css";
+@import "./main-menu.css";
+@import "./aside.css";
+@import "./secciones.css";
+@import "./footer.css";
