@@ -1,12 +1,13 @@
 aside {
     float: left;
     background-color: white;
-    width: 300px;
+    width: 200px;
     grid-area: aside;
     margin-top: 10px;
     border: solid 1px var(--gray-color);
     box-shadow: 2px 2px 5px var(--gray-color);
     padding: 10px;
+    grid-area: aside;
 }
 
 aside h3 {

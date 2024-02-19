@@ -8,6 +8,7 @@
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
+    grid-area: menu;
 }
 
 #main-menu>ul>li {

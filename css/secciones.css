@@ -1,30 +1,52 @@
 .Secciones {
-    grid-area: Noticia;
     display: flex;
     flex-direction: row;
     box-shadow: 1px 2px 2px var(--gray-color);
+    font-size: calc(1em + 1vw);
+    line-height: 1em;
+    padding: 1em;
+    margin: 1em;
+    align-content: center;
 }
 
-.Secciones > h3{
+.Secciones>h4 {
     color: var(--primary-color-dark);
+    text-align: justify;
+    margin-left: 10px;
 }
 
-#SeccionNoticias{
+#SeccionNoticias {
     color: var(--primary-color);
+    grid-area: Noticia;
 }
 
-#SeccionComunidad{
+#SeccionComunidad {
     color: var(--primary-color-dark);
+    grid-area: Comunidad;
 }
 
-#SeccionNiños{
+#SeccionNiños {
     color: var(--secondary-color);
+    grid-area: Niños;
 }
 
-#SeccionJovenes{
+#SeccionJovenes {
     color: var(--secondary-color-dark);
+    grid-area: Jovenes;
 }
 
-#SeccionContactanos{
+#SeccionContactanos {
     color: var(--srimary-color);
+    grid-area: Contacto;
+}
+
+.Secciones>div {
+    width: 200px;
+
+    align-content: center;
+}
+
+main{
+    margin: 0;
+    padding: 0;
 }
