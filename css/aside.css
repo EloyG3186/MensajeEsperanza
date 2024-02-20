@@ -2,12 +2,11 @@ aside {
     float: left;
     background-color: white;
     width: 200px;
-    grid-area: aside;
     margin-top: 10px;
     border: solid 1px var(--gray-color);
     box-shadow: 2px 2px 5px var(--gray-color);
     padding: 10px;
-    grid-area: aside;
+
 }
 
 aside h3 {
@@ -28,7 +27,7 @@ aside h3 {
 
 .widget form input[type="email"],
 .widget form input[type="password"] {
-    width: 100%;
+width: 100%;
 margin-bottom: 10px;
 padding: 10px;
 box-sizing: border-box;
@@ -67,7 +66,8 @@ box-sizing: border-box;
 
 @media(max-width:700px){
     aside{
-        width: 100%;
+        width: 95%;
+        display: none;
     }
 }
 

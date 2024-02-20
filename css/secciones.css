@@ -1,52 +1,49 @@
-.Secciones {
+main section {
     display: flex;
-    flex-direction: row;
+    flex-direction: col;
     box-shadow: 1px 2px 2px var(--gray-color);
-    font-size: calc(1em + 1vw);
     line-height: 1em;
-    padding: 1em;
-    margin: 1em;
+
     align-content: center;
+
 }
 
-.Secciones>h4 {
+main section h4 {
     color: var(--primary-color-dark);
     text-align: justify;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
 }
 
-#SeccionNoticias {
-    color: var(--primary-color);
-    grid-area: Noticia;
-}
-
-#SeccionComunidad {
-    color: var(--primary-color-dark);
-    grid-area: Comunidad;
-}
-
-#SeccionNiños {
-    color: var(--secondary-color);
-    grid-area: Niños;
-}
-
-#SeccionJovenes {
-    color: var(--secondary-color-dark);
-    grid-area: Jovenes;
-}
-
-#SeccionContactanos {
-    color: var(--srimary-color);
-    grid-area: Contacto;
-}
-
-.Secciones>div {
-    width: 200px;
-
-    align-content: center;
-}
-
-main{
+main {
     margin: 0;
     padding: 0;
+}
+
+main section div img {
+    width: 100%;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+main section div {
+    width: 250px;
+    margin: 0;
+}
+
+@media(max-width:700px) {
+
+        main section div{
+            width: 100px;
+            margin-top: 25px;
+            padding-top: 0;
+        }
+        main section div img{
+            padding-top: 0;
+        }
+        main section h4{
+            font-size: 0.9em; 
+        }
 }
